@@ -2,7 +2,10 @@
 
 
 
+
+# To run demo ennable pop-ups and open link in chrom
 Demo: https://dose-ai.herokuapp.com/
+
 
 
 
