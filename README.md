@@ -13,10 +13,12 @@ To run demo enable pop-ups and open link in chrome
 
 
 Single page app using API.AI to redirect customers to a specific DOSE tag
-Example 1: "DOSE, show me music".
-Example 3: "DOSE, go to life ".
-Example 2: "DOSE, show me food".
-Example 4: "DOSE, go to entertainment".
+
+
+- # Example 1: "DOSE, show me music".
+- # Example 3: "DOSE, go to life ".
+- # Example 2: "DOSE, show me food".
+- # Example 4: "DOSE, go to entertainment".
 
 
 
