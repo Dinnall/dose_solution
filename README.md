@@ -21,10 +21,11 @@ Single page app using API.AI to redirect customers to a specific DOSE tag
 
 ## How to run
 
-Building and running by cloning the repo! then run the below command
+ Clone the repo! then run the below command
 
 ``` bash
 # Serve at localhost:8080.
+npm install
 npm run dev
 
 
