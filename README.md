@@ -1,5 +1,12 @@
 # DOSE Ai 
 
+
+
+Demo: https://dose-ai.herokuapp.com/
+
+
+
+
 Single page app using API.AI to redirect customers to a specific DOSE tag
 Example 1: "DOSE, show me music".
 Example 3: "DOSE, go to life ".
