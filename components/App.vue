@@ -22,6 +22,13 @@
                             <button id="recording">Click me then speak</i></button>
                         </div>
 
+                        <div>
+                        <input  v-model="suggestion" type="text">
+                        <button v-on:click="redirect" id="suggestion">Give us a suggestion Tag </button>
+                        </input>
+
+                        </div>
+
 				    </div>
         
 				</div>
@@ -37,8 +44,32 @@ export default {
     name: 'app',
     data () {
         return {
+            suggestion: '',
             msg: 'Let DOSE guide you'
         }
+    },
+    methods:{
+     redirect: function(){
+        var settings = {
+          "async": true,
+          "crossDomain": true,
+          "url": "http://mockbin.org/bin/7d91b1e8-932a-4567-9049-350824bdc6ee?foo=bar&foo=baz",
+          "method": "POST",
+          "headers": {
+          "content-type": "application/x-www-form-urlencoded"
+          },
+          "data": {
+            "results":this.suggestion
+          }
+        }
+
+        $.ajax(settings).done(function (response) {
+          console.log(response);
+        });
+     }
+
+
+
     }
 }
 </script>

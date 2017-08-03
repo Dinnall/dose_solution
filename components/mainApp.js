@@ -68,6 +68,12 @@ recording.start();
 
 
 
+
+
+
+
+
+
 const switchRecognition =() => {
     if (recording) {
         stopRecognition();
